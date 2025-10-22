@@ -34,6 +34,7 @@ li {
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 500;
 }
 
 .global_nav_item {
@@ -88,10 +89,10 @@ li {
   text-align: center;
   margin-bottom: 50px;
 }
-.menu_section{
-    background: url("../images/sample_menu_bg.jpg")no-repeat bottom;
-    background: size 100%;
-    background-attachment: fixed;
+.menu_section {
+  background: url("../images/sample_menu_bg.jpg") no-repeat bottom;
+  background: size 100%;
+  background-attachment: fixed;
 }
 .menu_title {
   display: inline-block;
@@ -106,25 +107,24 @@ li {
   justify-content: space-between;
   flex-wrap: wrap;
 }
-.recommended_menu_list{
-    padding-bottom: 50px;
+.recommended_menu_list {
+  padding-bottom: 50px;
 }
-.menu_item_title{
-    font-size:18px;
-    font-family: "Noto Serif JP", serif;
+.menu_item_title {
+  font-size: 18px;
+  font-family: "Noto Serif JP", serif;
 }
-.menu_item_image{
-    width:55%;
-    object-fit: cover;
-    height:300px;
+.menu_item_image {
+  width: 55%;
+  object-fit: cover;
+  height: 300px;
 }
-.menu_item{
-    width:49%;
-    display:flex;
-    flex-direction: row-reverse;
-    margin-bottom: 20px;
-    box-shadow: 5px 5px 10px rgba(0,0,0,0.4);
-
+.menu_item {
+  width: 49%;
+  display: flex;
+  flex-direction: row-reverse;
+  margin-bottom: 20px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
 }
 .menu_item_content {
   width: 45%;
@@ -142,7 +142,7 @@ li {
 
 .menu_item_title {
   font-size: 18px;
-  font-family: 'Noto Serif JP', serif;
+  font-family: "Noto Serif JP", serif;
 }
 .center {
   text-align: center;
@@ -152,28 +152,28 @@ li {
   width: 20%;
   border-radius: 50%;
 }
-.coffee_menu_list{
-background: #fff;
+.coffee_menu_list {
+  background: #fff;
   padding: 20px;
 }
-.coffee_menu_list_item{
-    width:49%;
-    display:flex;
-    flex-direction: row-reverse;
-    align-items: center;
-    padding: 10px;
+.coffee_menu_list_item {
+  width: 49%;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  padding: 10px;
 }
-.coffee_menu_item_content{
-    width:80%;
-    padding: 10px;
+.coffee_menu_item_content {
+  width: 80%;
+  padding: 10px;
 }
-.g_map{
-position: relative;
+.g_map {
+  position: relative;
   width: 100%;
   padding-top: 60%;
 }
-.g_map iframe{
-      position: absolute;
+.g_map iframe {
+  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
@@ -190,11 +190,11 @@ position: relative;
 .concept_image {
   width: 35%;
 }
-.access_info
-{display:flex
+.access_info {
+  display: flex;
 }
-.access_info_title{
-width:80px;
+.access_info_title {
+  width: 80px;
 }
 
 .footer {
